@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: backend
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/cookgraph
+  graphql:
+    graphiql:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

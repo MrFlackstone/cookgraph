@@ -1,0 +1,38 @@
+# --- Java / Maven ---
+target/
+*.jar
+*.war
+*.class
+hs_err_pid*
+replay_pid*
+
+# --- Node / Angular ---
+node_modules/
+dist/
+.angular/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# --- Entorno / secretos ---
+.env
+.env.local
+*.pem
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# --- SO ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+# volúmenes gestionados por Docker; nada que ignorar aquí de momento
+
+# --- Logs ---
+*.log
